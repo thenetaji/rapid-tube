@@ -42,8 +42,8 @@ function Home() {
       error,
       isLoading,
     }}>
-      <main className="home w-full border border-green-700">
-        <div className="w-full h-full flex flex-col pb-7 rounded-b-xl h-[83vh] space-y-8 bg-gradient-to-bl from-sky-300 to-indigo-300 border-black border md:h-[52vh] md:p-10 lg:h-full lg:p-20">
+      <main className="home w-full px-2 mt-5">
+        <div className="w-full h-full flex flex-col rounded pb-7 h-[58vh] space-y-8 bg-black">
           <HeroSection />
         </div>
       </main>

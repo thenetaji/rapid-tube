@@ -1,7 +1,7 @@
 function Footer(){
   const values = ["Disclaimer","PrivacyPolicy","About Us","Contact Us"];
   return(
-    <footer className=" bottom-0 w-full h-22 bg-gray-300 p-4 rounded-t-xl text-lg lg:text-xl">
+    <footer className="bottom-0 w-full h-22 border-t border-gray-300 p-4 rounded-t-xl text-lg lg:text-xl">
       <div className="">
         <ul className="flex justify-around flex-wrap items-center">
         {values.map((item,index) => (

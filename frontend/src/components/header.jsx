@@ -8,8 +8,8 @@ function Header(){
   const menuOptions = ["YouTube ","Facebook","Instagram","Threads","Twitter","TikTok"];
   return(
     <>
-    <header className={`${menuActive ? "bg-white" : ""} sticky top-0 w-full z-50 flex flex-col justify-center align-center`}>
-     <div className="flex justify-between align-center w-full h-full px-4 py-2 ">
+    <header className="sticky top-0 w-full z-50 flex flex-col justify-center align-center bg-transparent">
+     <div className="flex justify-between align-center w-full h-full px-4 py-2">
        <h1 className="text-2xl text-left border-b-1 border-b-black">
        RAPIDTUBE
       </h1>

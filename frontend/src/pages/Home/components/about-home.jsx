@@ -7,7 +7,7 @@ import unlimitedDownloads from "/images/unlimited-downloads.png";
 
 function AboutHome() {
   return (
-    <div className="bg-gray-100 text-gray-900">
+    <div className="bg-black text-gray-900">
       <div className="container mx-auto px-4 py-8">
 
         <section className="mb-8">

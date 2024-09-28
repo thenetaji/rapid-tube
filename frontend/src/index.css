@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  color: white;
+}
+
+html,body{
+  background-color: black;
+}
+
 .amaranth-bold {
   font-family: "Amaranth", sans-serif;
   font-weight: 700;

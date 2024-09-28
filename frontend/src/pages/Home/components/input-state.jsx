@@ -24,7 +24,7 @@ function InputState(){
          inputValue={inputValue} 
          setInputValue={setInputValue}
          setShouldFetch={setShouldFetch} />
-        <div className="button-holder mt-4 flex flex-wrap w-full justify-around align-center px-4">
+        <div className="button-holder mt-8 flex flex-wrap w-full justify-around align-center px-4">
          <OptionButtons setInputType={setInputType} />
         </div>
       <div className="submit-btn w-full px-4 mt-6 h-12">

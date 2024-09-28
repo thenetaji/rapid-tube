@@ -30,9 +30,9 @@ function InputBox({ inputValue,setInputValue,setShouldFetch,setError }){
   return(
     <>
     <div className="w-full h-1/3 px-4">
-      <div className="border-2 border-indigo-800 flex rounded-xl overflow-hidden hover:scale-105 bg-white">
+      <div className="border-2 border-indigo-800 flex rounded-xl overflow-hidden hover:scale-105">
        <label htmlFor="input-box"></label>
-       <input type="text" placeholder="Search or paste Youtube URL" className="w-full h-full p-4 rounded-xl placeholder-gray-800 placeholder-opacity-75 relative focus:outline-none" id="input-box" onChange={handleInputChange} onKeyDown={handleKeyDown}/>
+       <input type="text" placeholder="Search or paste Youtube URL" className="w-full h-full p-4 rounded-xl placeholder-white-800 placeholder-opacity-75 relative focus:outline-none bg-transparent" id="input-box" onChange={handleInputChange} onKeyDown={handleKeyDown}/>
        {isClearIcon && (
         <button onClick={clearInput} className="relative right-2 bg-transparent">
           <img src="/icons/close.svg" alt="clear" type="image/svg" />
